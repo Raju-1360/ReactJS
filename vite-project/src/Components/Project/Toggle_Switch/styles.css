@@ -1,0 +1,53 @@
+/* Reset margins and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Include padding and border in element width */
+  }
+  
+  html, body {
+    height: 100vh;
+    width: 100vw;
+    font-family: Arial, sans-serif; /* Choose a font */
+    background-color: #f0f0f0; /* Light background color */
+  }
+  
+  .toggle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+  }
+  
+  .switch {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px; /* Adjust width as needed */
+    height: 50px; /* Adjust height as needed */
+    border-radius: 25px;
+    background-color: #ccc;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .state {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .on {
+    background-color: #4CAF50;
+    transform: translateX(100px);
+  }
+  
+  .off {
+    background-color: #f44336;
+    transform: translateX(0px);
+  }

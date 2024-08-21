@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(71, 71, 71);
+
+
+}
+
+
+.main{
+
+    display:  flex;
+    height: 50Vh;
+    width: 50vw;
+    background-color: #4d3838;
+    justify-content: center;
+    align-items: center;
+ 
+    
+
+}
+.grand{
+    background-color: red;
+    height: 100%;
+    width: 100%;
+ padding: 10%;
+ margin: 1%;
+}
+.parent{
+    background-color: rgb(41, 131, 123);
+    height: 100%;
+    width: 100%;
+    padding: 10%;
+    margin: 1%;
+    
+}
+.child{
+    background-color: rgb(219, 23, 121);
+    height: 100%;
+    width: 100%;
+    padding: 10%;
+    margin: 1%;
+}
+

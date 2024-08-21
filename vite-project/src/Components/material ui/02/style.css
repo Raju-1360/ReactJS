@@ -1,0 +1,33 @@
+body{
+    background-color:gray;
+}
+
+.box {
+    display: flex;            /* Set flexbox layout */
+    flex-direction: row;      /* Arrange children in a row */
+    height: 80vh; 
+        /* Full viewport height */
+}
+
+.box > div {
+    flex: 1;                  /* Allow each child to grow equally */
+    background-color: rgb(0, 255, 157);   /* Default background color */
+    border-radius: 50%;   
+}
+
+.box > div:nth-child(1) {
+    background-color: rgb(21, 255, 0); /* Specific color for the first child */
+}
+
+.box > div:nth-child(2) {
+    background-color: rgb(255, 145, 0); /* Specific color for the second child */
+}
+
+.box > div:nth-child(3) {
+    background-color: rgb(212, 0, 255); /* Specific color for the third child */
+}
+
+/* Optional: To ensure the boxes do not shrink */
+.box > div {
+    min-width: 0; /* Prevents flex items from shrinking too much */
+}

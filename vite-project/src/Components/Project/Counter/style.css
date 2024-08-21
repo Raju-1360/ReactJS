@@ -1,0 +1,94 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Full viewport height and width */
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: Arial, sans-serif;
+}
+
+/* Main container */
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+/* Title */
+.main h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Counter display */
+.main p {
+    font-size: 3rem;
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+/* Step input */
+label {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+label input {
+    font-size: 1.2rem;
+    padding: 5px;
+    margin-left: 10px;
+}
+
+/* Buttons container */
+.btns {
+    display: flex;
+    gap: 10px;
+}
+
+/* Buttons */
+.btns button {
+    font-size: 1rem;
+    padding: 10px 20px;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btns button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.btns button:hover:not(:disabled) {
+    background-color: #0056b3;
+}
+
+/* Specific button styles */
+.btns button:nth-child(2) {
+    background-color: #dc3545;
+}
+
+.btns button:nth-child(2):hover:not(:disabled) {
+    background-color: #b02a37;
+}
+
+.btns button:nth-child(3) {
+    background-color: #6c757d;
+}
+
+.btns button:nth-child(3):hover:not(:disabled) {
+    background-color: #545b62;
+}

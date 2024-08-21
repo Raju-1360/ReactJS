@@ -1,0 +1,82 @@
+body{
+    background-color: gray;
+}
+
+.mySwiper{
+ 
+   
+    margin-left: 35vw;
+    /* width: 10vw; */
+ 
+
+
+   
+}
+.swiper-slide img {
+  width: 100%;
+  aspect-ratio: 1/2;
+  /* width: auto;
+    height: 25vh; */
+    object-fit: cover;
+    /* Centers the image within the container */
+        /* Removes the default bottom space under images */
+    /* border-radius: 8px;   (Optional) Adds rounded corners to the image */
+   
+  }
+  .mySwiper2{
+    margin-left: 35vw;
+    width: 15vw;
+    
+ 
+
+  }
+  .swiper2-slide img {
+  height: 100%;
+    width: 100%;
+  
+      object-fit: contain;
+      object-position: center;
+      /* Centers the image within the container */
+          /* Removes the default bottom space under images */
+    /* (Optional) Adds rounded corners to the image */
+    
+    }
+
+    #box{
+      display: flex;
+
+
+      width: 100vw;
+
+      justify-content: center;
+      align-items: center;
+    }
+
+    #box>p{
+
+      width: 20px;
+      aspect-ratio: 1/2;
+      background-color: blue;
+
+
+    }
+    #box>p:nth-child(1){
+      background-color: rgb(23, 197, 66);
+
+    }
+    #box>p:nth-child(2){
+      background-color: rgb(196, 38, 188);
+
+    }
+    #box>p:nth-child(3){
+      background-color: rgb(204, 130, 20);
+
+    }
+    #box>p:nth-child(4){
+      background-color: rgb(31, 39, 33);
+
+    }
+   
+   
+   
+   

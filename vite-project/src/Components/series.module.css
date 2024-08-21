@@ -1,0 +1,52 @@
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 8%;
+   
+}
+*{
+    color: white;
+}
+img{
+    height: 25vh;
+    width: 25vw;
+}
+h1,h3{
+    font-size: medium;
+}
+#list{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:xx-large;
+    color: rgb(252, 10, 10);
+}
+.child{
+    padding-top: 10px;
+    padding-left: 10px;
+  
+    box-shadow: 1px 1px 2px white;
+}
+button{
+    position: relative;
+    left: 30%;
+   
+
+    
+}
+a{
+    color: black;
+}
+.child:hover{
+    scale: 1.05;
+}
+.super{
+    color: green;
+  
+}
+.average{
+    color: rgba(199, 250, 13, 0.425);
+  
+}

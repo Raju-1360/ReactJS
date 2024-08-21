@@ -1,0 +1,21 @@
+.main{ 
+
+    border: 1px solid blueviolet;
+margin-left: 30vw;
+    height: 50vh;
+    width: 50vw;
+    display: inline-flex;
+    
+    flex-direction: column;
+    justify-content: center;
+   
+    align-items: center;
+    
+   
+    
+}
+.main button{
+    height: auto;
+
+ 
+}
