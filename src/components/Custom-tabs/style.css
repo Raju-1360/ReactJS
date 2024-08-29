@@ -1,0 +1,20 @@
+body{
+  
+}
+
+.tabs{
+
+  
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+
+    gap: 1vh;
+
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    gap: 2vw;
+}
